@@ -49,11 +49,11 @@
   .video-grid {
     grid-template-columns: 1fr 1fr;
   }
+}
 
-  @media(min-width:1100px) {
-    .video-grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+@media(min-width:1100px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
